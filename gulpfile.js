@@ -93,13 +93,6 @@ gulp.task('watch', function(){
     
 });
 
-// gulp.task('watch', function(){
-    
-// });
-
-// gulp.task('watch', function(){
-//     return 
-// });
 
 
 gulp.task('default', gulp.parallel('css', 'scss', 'js', 'browser-sync', 'watch'));
